@@ -12,7 +12,7 @@ function bubbleSort(array) {
     return array;
 }
 
-let roll = [3, 160, 191, 307, 102, 188, 0, 2, 5, 78514, 1515, 12564, 32134, 4444, 1245];
+let roll = [3, 160, 191, 307, 102, 188];
 
 let result = bubbleSort(roll);
 console.log(result);
