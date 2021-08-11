@@ -1,7 +1,5 @@
 function binarySearch(array, number) {
-
     let lowIndex = 0; let midIndex; let highIndex = array.length - 1;
-
     while (lowIndex <= highIndex) {
         midIndex = parseInt((lowIndex + highIndex) / 2);
         if (number == array[midIndex]) {
